@@ -13,8 +13,6 @@ for i in arr:
     if max < i:
         max =int(i)
 
-print 'max ', max
-
 while index < max:
     if (index%5) == 0:
         new_arr.append(index)
