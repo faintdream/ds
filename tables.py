@@ -1,5 +1,3 @@
-from sys import exit
-
 
 def show_table(val, limit):
     if val == 0 or limit == 0:
@@ -12,7 +10,9 @@ def show_table(val, limit):
 while True:
     try:
         val = int(input('Print table for  ? '))
-        show_table(val, 12)
+        for t in range(val, val+ 4):
+            show_table(t, 12)
+
         next = input('press any key to continue or Q to quit ...')
         if next == 'q' or next == 'Q' :
             break
