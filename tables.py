@@ -12,7 +12,8 @@ while True:
         val = int(input('Print table for  ? '))
         for t in range(val, val+ 4):
             show_table(t, 12)
-
+            print('----------------------------') 
+            print()   
         next = input('press any key to continue or Q to quit ...')
         if next == 'q' or next == 'Q' :
             break
