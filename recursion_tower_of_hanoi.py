@@ -14,7 +14,7 @@ def towerofhanoi(n, source, aux, dest):
         towerofhanoi(n -1,aux,dest,source)
         
     else:
-        return 
+        return False
 
 n=int(input())
 towerofhanoi(n, 'a','b','c')
